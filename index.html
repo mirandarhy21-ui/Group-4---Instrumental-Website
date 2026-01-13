@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | INHS Rondalla</title>
+
+<style>
+body { margin:0; font-family:Arial, Helvetica, sans-serif; background-color:#f4f6f8; color:#333; }
+header, footer { background-color:#1e3a5f; color:white; text-align:center; padding:20px; }
+nav { background-color:#ffffff; text-align:center; padding:10px; }
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #1e3a5f;
+  font-weight: bold;
+}
+section { padding:30px; max-width:900px; margin:20px auto; background-color:#ffffff; }
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>INHS RONDALLA</h1>
+  <p>Music Instrumentals – Infanta National High School</p>
+</header>
+
+<nav>
+  <a href="Home.html">Home</a>
+  <a href="About.html">What is...</a>
+  <a href="teachers.html">Teachers</a>
+  <a href="instruments.html">Instruments</a>
+  <a href="performance.html">Performances</a>
+  <a href="Chooseus.html">Choose Us</a>
+  <a href="audition.html">Audition</a>
+</nav>
+
+<style>
+.slideshow {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: fade 9s infinite;
+}
+
+.slideshow img:nth-child(1) { animation-delay: 0s; }
+.slideshow img:nth-child(2) { animation-delay: 3s; }
+.slideshow img:nth-child(3) { animation-delay: 6s; }
+.slideshow img:nth-child(4) { animation-delay: 12s; }
+.slideshow img:nth-child(5) { animation-delay: 15s; }
+
+@keyframes fade {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="slideshow">
+  <img src="C:\Users\ethel\Downloads\610890288_848727401295754_5786765381996935212_n.jpg" alt="">
+  <img src="C:\Users\ethel\Downloads\612373650_1264347408852422_8961457072530933597_n.jpg" alt="">
+  <img src="C:\Users\ethel\Downloads\612284629_2076625213153864_5849714564843817736_n.jpg" alt="">
+  <img src="C:\Users\ethel\Downloads\611776511_881264991052228_5796767252956623975_n.jpg" alt="">
+  <img src="C:\Users\ethel\Downloads\612875793_2009793413282374_6147829814198765950_n.jpg" alt="">
+</div>
+
+<footer>
+  <p>Brgy. Miswa Ruanto St., Infanta, Philippines</p>
+  <p>INHS Rondalla © 2025</p>
+</footer>
+
+</body>
+</html>
